@@ -18,7 +18,7 @@ We introduce knowledge distillation for end-to-end person search. End-to-End met
 We propose two distinct approaches for extra supervision of end-to-end person search methods in a teacher-student setting. The first is adopted from state-of-the-art knowledge distillation in object detection. We employ this to supervise the detector of our person search model at various levels using a specialized detector. The second approach is new, simple and yet considerably more effective. This distills knowledge from a teacher re-identification technique via a pre-computed look-up table of ID features. It relaxes the learning of identification features and allows the student to focus on the detection task. This procedure not only helps fixing the sub-optimal detector training in the joint optimization and simultaneously improving the person search, but also closes the performance gap between the teacher and the student for model compression in this case. Overall, we demonstrate significant improvements for two recent state-of-the-art methods using our proposed knowledge distillation approach on two benchmark datasets. Moreover, on the model compression task our approach brings the performance of smaller models on par with the larger models.
 
 ## Results on CUHK-SYSU [2] using Resnet50
- Method @Gallery100        | mAP           | top-1  | || 
+ Method @Gallery100        | mAP           | top-1  | Detection mAP |Detection Recall| 
 | -------------            |:-------------:| -----: |
 | OIM (ours)                   | 78.0          |   77.9 | 75.2| 82.7|
 | QEEPS [1]                  | 84.4          |   84.4 | -| -| 
