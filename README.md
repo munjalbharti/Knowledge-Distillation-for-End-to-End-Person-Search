@@ -20,7 +20,7 @@ We propose two distinct approaches for extra supervision of end-to-end person se
 ## Results on CUHK-SYSU [2] using Resnet50
 
 
--            | Person Search   | Detection | Detection  | 
+-            | Person Search |  | Detection |   | 
 |  -------------            |:-------------:| -----: | -----: | -----:|
 | Method        | mAP           | top-1  |  mAP |  Recall | 
 | OIM (ours)                   | 78.0          |   77.9 | 75.2| 82.7|
