@@ -19,18 +19,17 @@ We propose two distinct approaches for extra supervision of end-to-end person se
 
 ## Results on CUHK-SYSU [2] using Resnet50
 
-| Method        | Person Search mAP           | Person Search top-1  |  mAP |  Recall | 
+| Method        | Person Search mAP           | Person Search top-1  |  Detection mAP |  Detection Recall | 
 |  -------------            |:-------------:| -----: | -----: | -----:|
 | OIM (ours)                   | 78.0          |   77.9 | 75.2| 82.7|
 | QEEPS [1]                  | 84.4          |   84.4 | -| -| 
 | OIM with QEEPS Teacher                    | 83.8          |   84.2  | 81.7| 86.8|
 
 ## Results on CUHK-SYSU [2] using Resnet18
-| Method        | Person Search mAP           | Person Search top-1  |  mAP |  Recall | 
+| Method        | Person Search mAP           | Person Search top-1  | Detection mAP |  Detection Recall | 
 |  -------------            |:-------------:| -----: | -----: | -----:|
-| OIM (ours)                   | 78.0          |   77.9 | 75.2| 82.7|
-| QEEPS [1]                  | 84.4          |   84.4 | -| -| 
-| OIM with QEEPS Teacher                    | 83.8          |   84.2  | 81.7| 86.8|
+| OIM (ours)                   | 69.1          |   68.0 | 74.2| 81.6|
+| OIM with QEEPS Teacher                    | 82.4         |   83.0  | 80.8| 86.0|
 
 
 [1] B. Munjal, S. Amin, F. Tombari, F. Galasso. Query-guided End-to-End Person Search. In The IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2019
