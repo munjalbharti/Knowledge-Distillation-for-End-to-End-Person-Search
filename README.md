@@ -20,7 +20,7 @@ We propose two distinct approaches for extra supervision of end-to-end person se
 ## Results on CUHK-SYSU [2] using Resnet50
 
 
--            | Person Search |  | Detection |   | 
+Method         | Person  | Search | Detection |  Detection | 
 |  -------------            |:-------------:| -----: | -----: | -----:|
 | Method        | mAP           | top-1  |  mAP |  Recall | 
 | OIM (ours)                   | 78.0          |   77.9 | 75.2| 82.7|
@@ -28,7 +28,7 @@ We propose two distinct approaches for extra supervision of end-to-end person se
 | OIM with QEEPS Teacher                    | 83.8          |   84.2  | 81.7| 86.8|
 
 ## Results on CUHK-SYSU [2] using Resnet18
--            | Person Search | Person Search  | Detection | Detection  | 
+Method      | Person Search | Person Search  | Detection | Detection  | 
 |  -------------            |:-------------:| -----: | -----: | -----:|
 | Method        | mAP           | top-1  |  mAP |  Recall | 
 | OIM (ours)                   | 78.0          |   77.9 | 75.2| 82.7|
