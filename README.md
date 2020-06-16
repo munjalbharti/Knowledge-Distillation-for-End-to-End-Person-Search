@@ -22,8 +22,9 @@ We propose two distinct approaches for extra supervision of end-to-end person se
 
 -              | Person Search | Person Search  | Detection | Detection  | 
  | Method        | mAP           | top-1  | Detection mAP | Detection Recall | 
+  -------------            |:-------------:| -----: | -----: | -----:|
  | Method        | mAP           | top-1  | Detection mAP | Detection Recall | 
-| -------------            |:-------------:| -----: | -----: | -----:|
+|
 | OIM (ours)                   | 78.0          |   77.9 | 75.2| 82.7|
 | QEEPS [1]                  | 84.4          |   84.4 | -| -| 
 | OIM with QEEPS Teacher                    | 83.8          |   84.2  | 81.7| 86.8|
